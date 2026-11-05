@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="cinema.xsd">
+    <films>
+        <film id="F1" genre="Science-fiction" disponible="true">
+            <titre>Inception</titre>
+            <realisateur>Christopher Nolan</realisateur>
+            <annee>2010</annee>
+            <duree>148</duree>
+            <note>8.8</note>
+        </film>
+        <film id="F2" genre="Drame" disponible="true">
+            <titre>The Pianist</titre>
+            <realisateur>Roman Polanski</realisateur>
+            <annee>2002</annee>
+            <duree>150</duree>
+            <note>8.5</note>
+        </film>
+        <film id="F3" genre="Action" disponible="false">
+            <titre>Mad Max: Fury Road</titre>
+            <realisateur>George Miller</realisateur>
+            <annee>2015</annee>
+            <duree>120</duree>
+            <note>8.1</note>
+        </film>
+        <film id="F4" genre="Science-fiction" disponible="true">
+            <titre>Interstellar</titre>
+            <realisateur>Christopher Nolan</realisateur>
+            <annee>2014</annee>
+            <duree>169</duree>
+            <note>8.7</note>
+        </film>
+    </films>
+
+    <salles>
+        <salle id="S1">
+            <nom>Salle Carthage</nom>
+            <capacite>150</capacite>
+        </salle>
+        <salle id="S2">
+            <nom>Salle Sfax</nom>
+            <capacite>80</capacite>
+        </salle>
+    </salles>
+
+    <utilisateurs>
+        <utilisateur id="U1" actif="true">
+            <nom>Ben Ali</nom>
+            <prenom>Sarra</prenom>
+            <email>sarra.benali@mail.tn</email>
+        </utilisateur>
+        <utilisateur id="U2" actif="false">
+            <nom>Trabelsi</nom>
+            <prenom>Mehdi</prenom>
+            <email>mehdi.trabelsi@mail.tn</email>
+        </utilisateur>
+        <utilisateur id="U3" actif="true">
+            <nom>Gharbi</nom>
+            <prenom>Yasmine</prenom>
+            <email>yasmine.gharbi@mail.tn</email>
+        </utilisateur>
+    </utilisateurs>
+</cinema>
