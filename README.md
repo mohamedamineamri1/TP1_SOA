@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Nom et prénom** | [AMRI] [Mohamed Amine ] |
+| **Nom et prénom** | AMRI Mohamed Amine  |
 | **Filière** | LSI3 |
 | **Matière** | Architecture SOA et services web |
 | **Établissement** | Faculté des Sciences de Sfax, Département d'informatique et des Communications |
